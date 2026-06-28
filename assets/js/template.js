@@ -1,6 +1,7 @@
 jQuery(document).ready(function($) {
 
 	var my_nav = $('.navbar-sticky'); 
+	var themeToggle = $('#theme-toggle');
 	// grab the initial top offset of the navigation 
 	var sticky_navigation_offset_top = my_nav.offset().top;
 	
@@ -26,6 +27,12 @@ jQuery(document).ready(function($) {
 		});
 	}
 	
+	var toggleTheme = function() {
+		$('body').toggleClass('dark-theme');
+		var isDark = $('body').hasClass('dark-theme');
+		themeToggle.text(isDark ? '🌙' : '☀️');
+	};
+
 	// run our function on load
 	sticky_navigation();
 	
@@ -34,5 +41,7 @@ jQuery(document).ready(function($) {
 		 sticky_navigation();
 		 initio_parallax_animation();
 	});
+
+	themeToggle.on('click', toggleTheme);
 
 });
