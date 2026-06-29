@@ -4,7 +4,7 @@ A personal portfolio website built with HTML, CSS, and JavaScript, deployed via 
 
 ## Live Site
 
-[View Portfolio](https://moonlightnode.github.io/website-portfolio/)
+[View Portfolio](https://khaleelmanderson.github.io/website-portfolio/)
 
 ---
 
@@ -61,7 +61,7 @@ I am a Computer Science graduate from The College of Wooster with hands-on exper
 To run locally:
 
 ```bash
-git clone https://github.com/MoonlightNode/website-portfolio.git
+git clone https://github.com/khaleelmanderson/website-portfolio.git
 cd website-portfolio
 ```
 
@@ -73,7 +73,7 @@ Then open `index.html` in your browser or use the Live Server extension in VS Co
 
 - Email: khaleelmanderson@gmail.com
 - LinkedIn: [linkedin.com/in/KhaleelManderson](https://linkedin.com/in/KhaleelManderson)
-- GitHub: [github.com/MoonlightNode](https://github.com/MoonlightNode)
+- GitHub: [github.com/khaleelmanderson](https://github.com/khaleelmanderson)
 
 ---
 
